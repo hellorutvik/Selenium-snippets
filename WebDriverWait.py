@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 
-browser = webdriver.Firefox()
+browser = webdriver.Chrome()
 browser.get("url")
 delay = 3 # seconds
 try:
